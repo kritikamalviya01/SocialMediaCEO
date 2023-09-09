@@ -1,0 +1,292 @@
+body{
+    width: 100%;
+}
+
+
+.navbar-nav .nav-item .nav-link {
+  color: white; 
+  font-size: 17px; 
+  margin-right: 20px;
+}
+
+
+.navbar-nav .nav-link:hover {
+  color: #FF08C9; 
+}
+
+
+/* Hero or Jumbotron Section -------------------------------  */
+
+
+/* Hero Section */
+.hero {
+    background-image: url(''); /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 100px 0;
+  }
+  
+  /* Overlay for shading or blurring from the left side */
+  .hero::before {
+    content: "";
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), transparent); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%; /* Adjust the width of the shaded/blurred area */
+    height: 100%;
+  }
+  
+  /* Hero content */
+  .hero-content {
+    text-align: center;
+    color: rgb(73, 69, 69);
+    z-index: 1;
+  }
+  
+  .hero-heading {
+    font-size: 36px; /* Adjust the font size */
+    font-family: 'Your Font', sans-serif; /* Use the desired font family */
+    margin-bottom: 20px;
+  }
+  
+  .hero-description {
+    font-size: 18px; /* Adjust the font size */
+    margin-bottom: 30px;
+  }
+  
+  .btn-primary {
+    background-color: #FF08C9; /* Button background color */
+    color: white; /* Button text color */
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #D105A8; /* Button background color on hover */
+  }
+  
+
+  /*  Service section----------------->
+/* Styles for the Service Cards */
+
+
+.service-icon {
+    color: #FF08C9; /* Icon color */
+    margin-bottom: 15px;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .service-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px); /* Lift card on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
+  }
+  
+  .service-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .service-description {
+    font-size: 16px;
+  }
+  
+  .btn-primary {
+    background-color: #FF08C9; /* Button background color */
+    color: white; /* Button text color */
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #D105A8; /* Button background color on hover */
+  }
+  
+  /* Add other creative styles as needed */
+  
+
+  /* Pricing and Packages Servicess ---------------*/
+
+  /* Styles for the Pricing and Packages section */
+.pricing-section {
+    background-color: #f7f7f7; /* Background color for the section */
+    padding: 60px 0;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  .package-card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .package-card:hover {
+    transform: translateY(-10px); /* Lift card on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
+  }
+  
+  .package-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .package-price {
+    font-size: 36px;
+    color: #ff08c9; /* Price color */
+    margin-bottom: 20px;
+  }
+  
+  .package-features {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .package-features li {
+    margin-bottom: 10px;
+  }
+  
+  .btn-primary {
+    background-color: #ff08c9; /* Button background color */
+    color: white; /* Button text color */
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #d105a8; /* Button background color on hover */
+  }
+  
+  /* Add other creative styles as needed */
+  
+  /*  Testimonials Section ___________--------------------*/
+/* Styles for the Testimonials Section */
+.testimonials-section {
+    background-color: #f7f7f7; /* Background color for the section */
+    padding: 60px 0;
+    text-align: center;
+    position: relative;
+  }
+  
+  .section-title {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  .testimonial-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .testimonial {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .testimonial:hover {
+    transform: translateY(-10px); /* Lift testimonial on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
+  }
+  
+  .testimonial-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-author {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #FF08C9; /* Author name color */
+  }
+  
+  .testimonial-company {
+    font-size: 14px;
+    color: #777; /* Company name color */
+  }
+  
+  .testimonial-avatar img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 15px;
+    object-fit: cover;
+  }
+
+
+ /* Adjust the margin for the arrow elements */
+.testimonial-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+  }
+  
+  .testimonial-arrow:hover {
+    background-color: #FF08C9; /* Change background color on hover */
+  }
+  
+  .testimonial-arrow-left {
+    left: 0; /* Adjust the left margin */
+  }
+  
+  .testimonial-arrow-right {
+    right: 0; /* Adjust the right margin */
+  }
+  
+  
+
+
+
+  /* Responsive Styles */
+  
+  @media (max-width: 768px) {
+    .package-card {
+      margin-bottom: 30px;
+    }
+
+    .service-card {
+        margin-bottom: 30px;
+      }
+  }
+  
