@@ -2,6 +2,9 @@ body{
     width: 100%;
 }
 
+.navbar{
+  background-color: #FF08C9;
+}
 
 .navbar-nav .nav-item .nav-link {
   color: white; 
@@ -74,7 +77,10 @@ body{
   /*  Service section----------------->
 /* Styles for the Service Cards */
 
-
+#services{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
 .service-icon {
     color: #FF08C9; /* Icon color */
     margin-bottom: 15px;
@@ -275,6 +281,110 @@ body{
   }
   
   
+/*   About us Section --------------------------*/
+
+/* Styles for the About Section */
+.about-section {
+  padding: 80px 0;
+  text-align: center;
+  background-color: #fff;
+}
+
+.about-description {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+/* Styles for Custom Social Media Icons Section  ------*/
+
+
+/* Styles for Custom Social Media Icons Section */
+.social-media-section {
+  background-color: #f7f7f7; /* Background color for the section */
+  padding: 60px 0;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.social-icons {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.col-md-12{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-icon {
+  display: inline-block;
+  margin: 0 15px; /* Adjust spacing between icons */
+  font-size: 32px; /* Adjust icon size */
+  color: #FF08C9; /* Custom icon color */
+  transition: transform 0.3s, color 0.3s;
+}
+
+.custom-icon:hover {
+  transform: scale(1.1); /* Add a slight scale effect on hover */
+  color: #FF057D; /* Change icon color on hover */
+}
+
+
+/*  foooter sectio  */
+
+/* Footer Styles */
+
+.footer {
+  background-color: #FF08C9; /* Footer background color */
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('footer-bg.jpg'); Add gradient overlay and image */
+  /* background: linear-gradient(to right, rgba(246, 25, 183, 0.8), transparent);  */
+  background-size: cover;
+  color: #fff; /* Text color */
+  padding: 40px 0;
+}
+
+.footer h4 {
+  color: #fff; /* Header text color */
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.address p {
+  margin-bottom: 8px;
+}
+
+.footer a {
+  color: #fff; /* Link color */
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+.footer-nav li {
+  margin-bottom: 10px;
+}
+
 
 
 
@@ -288,5 +398,13 @@ body{
     .service-card {
         margin-bottom: 30px;
       }
+
+    .about-image img {
+      max-width: 100%;
+    }
+
+    .footer h4 {
+      font-size: 18px;
+    }
   }
   
