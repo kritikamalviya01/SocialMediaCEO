@@ -50,3 +50,14 @@ function moveTestimonial(n) {
 // // Start the carousel when the page loads
 // window.onload = showTestimonials;
 
+// JavaScript for Transparent Navbar Effect
+window.addEventListener("scroll", function () {
+  const navbar = document.querySelector(".navbar");
+  const scrollPosition = window.scrollY;
+
+  if (scrollPosition > 100) { // Adjust the scroll position when the effect should trigger
+    navbar.classList.add("transparent-navbar");
+  } else {
+    navbar.classList.remove("transparent-navbar");
+  }
+});
