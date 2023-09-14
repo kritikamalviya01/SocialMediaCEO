@@ -4,6 +4,7 @@ body{
 
 .navbar{
   background-color: #FF08C9;
+  transition: background-color 0.3s;
 }
 
 .navbar-nav .nav-item .nav-link {
@@ -17,61 +18,55 @@ body{
   color: #FF08C9; 
 }
 
+.transparent-navbar {
+  background-color: rgba(255, 8, 201, 0.9); 
+}
 
 /* Hero or Jumbotron Section -------------------------------  */
 
 
 /* Hero Section */
+/* Hero Section with Increased Height and Full Background Image */
 .hero {
-    background-image: url(''); /* Replace with your background image URL */
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    padding: 100px 0;
-  }
-  
-  /* Overlay for shading or blurring from the left side */
-  .hero::before {
-    content: "";
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), transparent); 
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%; /* Adjust the width of the shaded/blurred area */
-    height: 100%;
-  }
-  
-  /* Hero content */
-  .hero-content {
-    text-align: center;
-    color: rgb(73, 69, 69);
-    z-index: 1;
-  }
-  
-  .hero-heading {
-    font-size: 36px; /* Adjust the font size */
-    font-family: 'Your Font', sans-serif; /* Use the desired font family */
-    margin-bottom: 20px;
-  }
-  
-  .hero-description {
-    font-size: 18px; /* Adjust the font size */
-    margin-bottom: 30px;
-  }
-  
-  .btn-primary {
-    background-color: #FF08C9; /* Button background color */
-    color: white; /* Button text color */
-    padding: 15px 30px;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.3s;
-  }
-  
-  .btn-primary:hover {
-    background-color: #D105A8; /* Button background color on hover */
-  }
+  background-image: url('/SocialMediaCEO/Images/website.png'); /* Replace with your background image URL */
+  background-size: 100% 100%; /* Make the background image cover the entire hero section */
+  background-position: center;
+  position: relative;
+  padding: 200px 0; /* Increase the padding to increase the size vertically */
+}
+
+/* Hero content */
+.hero-content {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  z-index: 1;
+}
+
+.hero-heading {
+  font-size: 48px; /* Increase the font size */
+  font-family: 'Your Font', sans-serif; /* Use the desired font family */
+  margin-bottom: 20px;
+}
+
+.hero-description {
+  font-size: 24px; /* Increase the font size */
+  margin-bottom: 30px;
+}
+
+.btn-primary {
+  background-color: #FF08C9; /* Button background color */
+  color: white; /* Button text color */
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #D105A8; /* Button background color on hover */
+}
+
   
 
   /*  Service section----------------->
