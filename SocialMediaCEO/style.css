@@ -67,6 +67,36 @@ body{
   background-color: #D105A8; /* Button background color on hover */
 }
 
+
+/* Jump animation for unloack */
+
+
+/* CSS Animation for Jump Effect */
+@keyframes jumpAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-20px); /* Adjust the jump height */
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(-5px); /* Adjust the jump height */
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Apply the Animation to the Element with the "jump" Class */
+.jump {
+  animation: jumpAnimation 3s  ; /* Adjust the duration as needed */
+  animation-fill-mode: forwards;
+}
+
+
   
 
   /*  Service section----------------->
@@ -381,7 +411,21 @@ body{
 }
 
 
+/* Enable Smooth Scrolling for All Anchor Links */
+a {
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
 
+/* Add Smooth Scrolling Behavior to Anchor Links with Href Starting with # */
+a[href^="#"] {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Smooth Scrolling Effect */
+html {
+  scroll-behavior: smooth;
+}
 
   /* Responsive Styles */
   

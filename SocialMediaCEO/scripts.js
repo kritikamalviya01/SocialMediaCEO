@@ -61,3 +61,26 @@ window.addEventListener("scroll", function () {
     navbar.classList.remove("transparent-navbar");
   }
 });
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  const jumpElement = document.getElementById("jump");
+  jumpElement.style.transition = "transform 1s";
+  jumpElement.style.transform = "translateY(-5px)";
+});
+
+
+<script>
+  $(document).ready(function () {
+    // Smooth scrolling for all anchor links
+    $('a[href^="#"]').on('click', function (event) {
+      var target = $($(this).attr('href'));
+      if (target.length) {
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000); 
+      }
+    })
+  });
+</script>
