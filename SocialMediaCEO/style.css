@@ -1,5 +1,6 @@
 body{
     width: 100%;
+    scroll-behavior: smooth;
 }
 
 .navbar{
@@ -330,19 +331,18 @@ body{
 
 
 
-
-
 /* Styles for Custom Social Media Icons Section  ------*/
 
 
 /* Styles for Custom Social Media Icons Section */
 .social-media-section {
-  background-color: #f7f7f7; /* Background color for the section */
+  background-color: #FF08C9; /*Background color for the section */
   padding: 60px 0;
   text-align: center;
 }
 
-.section-title {
+.section-title1 {
+  color: #fff;
   font-size: 28px;
   margin-bottom: 30px;
 }
@@ -364,7 +364,7 @@ body{
   display: inline-block;
   margin: 0 15px; /* Adjust spacing between icons */
   font-size: 32px; /* Adjust icon size */
-  color: #FF08C9; /* Custom icon color */
+  color: #ffffff; /* Custom icon color */
   transition: transform 0.3s, color 0.3s;
 }
 
@@ -409,6 +409,37 @@ body{
 .footer-nav li {
   margin-bottom: 10px;
 }
+
+
+/* Center align the text vertically and horizontally */
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* Fill the entire height of the column */
+  text-align: center; /* Center-align text */
+  margin-top: 4%;
+  margin-bottom: 0%;
+}
+
+/* Style the social media icons
+.social-icons1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* .custom-icon {
+  font-size: 32px; 
+  color: #FF08C9; 
+  margin: 0 25px; 
+} */
+
+/* .custom-icon:hover {
+  color: #FF057D; /* Change icon color on hover */
+/* } */ 
+
 
 
 /* Enable Smooth Scrolling for All Anchor Links */
