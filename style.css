@@ -29,7 +29,7 @@ body{
 /* Hero Section */
 /* Hero Section with Increased Height and Full Background Image */
 .hero {
-  background-image: url('/SocialMediaCEO/Images/website.png'); /* Replace with your background image URL */
+  background-image: url('Images/website.png'); /* Replace with your background image URL */
   background-size: 100% 100%; /* Make the background image cover the entire hero section */
   background-position: center;
   position: relative;
